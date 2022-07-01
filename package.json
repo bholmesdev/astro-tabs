@@ -1,0 +1,19 @@
+{
+  "name": "astro-tabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build types",
+    "dev": "turbo run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.48",
+    "turbo": "^1.3.1",
+    "typescript": "^4.7.4",
+    "vitest": "^0.16.0"
+  }
+}
