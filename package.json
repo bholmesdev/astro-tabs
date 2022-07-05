@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "turbo run build types --scope=packages/**",
-    "dev": "turbo run dev --scope=packages/**"
+    "build": "turbo run build types --filter=@astro-tabs/*",
+    "dev": "turbo run dev --filter=@astro-tabs/*"
   },
   "keywords": [],
   "author": "",
