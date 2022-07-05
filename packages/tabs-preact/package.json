@@ -1,7 +1,7 @@
 {
   "name": "@astro-tabs/preact",
   "version": "0.0.1",
-  "description": "",
+  "description": "Bring Preact-flavored tabs to your Astro project",
   "main": "dist/Tabs.jsx",
   "type": "module",
   "exports": {
