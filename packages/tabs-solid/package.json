@@ -1,0 +1,26 @@
+{
+  "name": "@astro-tabs/solid",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/Tabs.jsx",
+  "type": "module",
+  "exports": {
+    ".": "./dist/Tabs.jsx",
+    "./styles.css": "./dist/styles.css"
+  },
+  "scripts": {
+    "build": "esbuild src/** --jsx=preserve --outdir=dist --out-extension:.js=.jsx",
+    "dev": "esbuild src/** --watch --jsx=preserve --outdir=dist  --out-extension:.js=.jsx",
+    "types": "tsc src/**.ts src/**.tsx --emitDeclarationOnly --declaration --jsx preserve --outdir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanostores": "^0.5.12",
+    "solid-js": "^1.4.5"
+  },
+  "peerDependencies": {
+    "@astrojs/solid": "^0.3.1"
+  }
+}

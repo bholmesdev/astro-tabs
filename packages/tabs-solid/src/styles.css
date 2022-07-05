@@ -1,0 +1,24 @@
+[data-astro-tabs] {
+	--tab-border: #ccc;
+	--tab-border-selected:#333;
+}
+
+[data-astro-tab-list] {
+	display: flex;
+}
+
+[data-astro-tab] {
+	border-radius: unset;
+	background-color: unset;
+	border: unset;
+	padding: 0.5rem 1rem;
+	border-bottom: 3px solid var(--tab-border);
+}
+
+[data-astro-tab][aria-selected=true] {
+	border-bottom-color: var(--tab-border-selected);
+}
+
+[data-astro-tab-panel] {
+	padding-block-start: 1rem;
+}
