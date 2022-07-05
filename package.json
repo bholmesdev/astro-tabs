@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "turbo run build types",
-    "dev": "turbo run dev"
+    "build": "turbo run build types --scope=packages/**",
+    "dev": "turbo run dev --scope=packages/**"
   },
   "keywords": [],
   "author": "",
